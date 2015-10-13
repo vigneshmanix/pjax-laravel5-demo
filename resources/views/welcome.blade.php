@@ -1,45 +1,26 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
+@extends('base')
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+@section('title')
+laravel 5 pjax demo
+@stop
 
-        <style>
-            html, body {
-                height: 100%;
-            }
+@include('nav',['active'=>'home'])
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
+@section('body')
 
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
+    <div class="container">
 
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
+      <div class="starter-template">
+        <h1>Home Page</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare eros eu risus imperdiet sagittis. Curabitur lacinia et justo at mollis. Cras facilisis eros ac sapien bibendum accumsan. Ut eu diam erat. Ut suscipit felis nec est mattis pellentesque</p>
+      </div>
+      <h2>In up so discovery my middleton eagerness dejection explained</h2>
 
-            .title {
-                font-size: 96px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
-        </div>
-    </body>
-</html>
+      <p>As absolute is by amounted repeated entirely ye returned. These ready timed enjoy might sir yet one since. Years drift never if could forty being no. On estimable dependent as suffering on my. Rank it long have sure in room what as he. Possession travelling sufficient yet our. Talked vanity looked in to. Gay perceive led believed endeavor. Rapturous no of estimable oh therefore direction up. Sons the ever not fine like eyes all sure.</p>
+
+      <p>Is branched in my up strictly remember. Songs but chief has ham widow downs. Genius or so up vanity cannot. Large do tried going about water defer by. Silent son man she wished mother. Distrusts allowance do knowledge eagerness assurance additions to.</p>
+
+
+    </div><!-- /.container -->
+
+@stop
