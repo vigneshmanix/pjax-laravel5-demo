@@ -33,6 +33,14 @@
 	// pjax
 	$(document).pjax('a', '#body')
 	})
+      $(document).ready(function(){
+
+    // does current browser support PJAX
+      if ($.support.pjax) {
+      $.pjax.defaults.timeout = 2000; // time in milliseconds
+      }
+      
+      });
     </script>
   </head>
 
