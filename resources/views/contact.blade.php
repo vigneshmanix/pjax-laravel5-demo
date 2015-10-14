@@ -4,7 +4,9 @@
 laravel 5 pjax demo contact
 @stop
 
+@section('nav')
 @include('nav',['active'=>'contact'])
+@stop
 
 @section('body')
 
@@ -12,7 +14,7 @@ laravel 5 pjax demo contact
 
       <div class="starter-template">
         <h1>Contact page</h1>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare eros eu risus imperdiet sagittis. Curabitur lacinia et justo at mollis. Cras facilisis eros ac sapien bibendum accumsan. Ut eu diam erat. Ut suscipit felis nec est mattis pellentesque</p>
+        <p class="lead">Fusce mollis dolor nisl. Ut volutpat consequat leo nec lobortis. Sed volutpat luctus sem, eu mattis mauris molestie ac. Donec aliquam sem ac tempor venenatis.</p>
       </div>
       <h2>In up so discovery my middleton eagerness dejection explained</h2>
 

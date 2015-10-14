@@ -4,7 +4,9 @@
 laravel 5 pjax demo
 @stop
 
+@section('nav')
 @include('nav',['active'=>'home'])
+@stop
 
 @section('body')
 
